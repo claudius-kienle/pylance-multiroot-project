@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "package-1"
+		},
+		{
+			"path": "package-2"
+		}
+	],
+    "settings": {
+        "python.analysis.logLevel": "Trace"
+    }
+}
