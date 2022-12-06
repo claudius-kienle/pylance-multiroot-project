@@ -1,0 +1,1 @@
+-e git+ssh://git@github.com/claudius-kienle/pylance-multiroot-project.git@0aca53b0e2cfa67f8635759b76e9e6dbb570c69d#egg=util_package&subdirectory=package-1

@@ -1,13 +1,14 @@
 Reproduce:
 
-```bash
-python -m venv env
-source env/bin/activate
-cd package-1
-pip install -e . --config-settings mode=compat
-```
+0. 
+    ```bash
+    python -m venv env
+    source env/bin/activate
+    cd package-1
+    pip install -e . --config-settings mode=compat
+    ```
 
-1. Open VS Code and navigat to `package-2/package_2/main.py`.
+1. Open VS Code Workspace `pylance.code-workspace` and navigate to `package-2/package_2/main.py`.
 2. Select venv as Python Interpreter
 3. Open Quick Fix for `util_function()`
 4. It will promp `no code actions available`
